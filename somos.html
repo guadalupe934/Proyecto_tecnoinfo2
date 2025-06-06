@@ -1,55 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>¿Quiénes Somos? - UVM Lomas Verdes</title>
-<link rel="stylesheet" href="somos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes Somos - UVM Lomas Verdes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f2f7; /* Azul muy claro para el fondo */
+            color: #003366; /* Azul oscuro para el texto principal */
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #0056b3; /* Azul medio para el título */
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 30px;
+            color: #004080; /* Azul ligeramente más claro para el párrafo */
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap; /* Permite que las imágenes se ajusten en pantallas pequeñas */
+        }
+        .image-gallery img {
+            max-width: 45%; /* Ajusta el tamaño de las imágenes */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #4CAF50; /* Borde verde para simular vida marina */
+        }
+        .powerpoint-embed {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .powerpoint-embed iframe {
+            width: 100%;
+            height: 600px; /* Altura adecuada para el PowerPoint */
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para representar la vida marina con colores azules */
+        .marine-blue-theme {
+            background: linear-gradient(to bottom, #87ceeb, #00bfff, #1e90ff); /* Degradado de azules */
+            color: #ffffff; /* Texto blanco para contrastar */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+            font-size: 1.1em;
+        }
+        .marine-blue-theme p {
+            color: #ffffff;
+        }
+    </style>
 </head>
 <body>
-<header>
-<div class="header-content">
-<h1>¿Quiénes Somos?</h1>
-<img src="https://source.unsplash.com/random/100x100/?fish,coral" alt="Ilustración marina" class="header-illustration">
-</div>
-</header>
- 
-    <main>
-<section class="quienes-somos-section">
-<div class="text-content">
-<p>
-                    Somos un grupo de chicas de 4to semestre en la UVM Lomas Verdes,
-                    con una profunda preocupación por el bienestar de nuestros océanos.
-                    Nuestro principal objetivo es **concientizar a la sociedad** sobre el grave daño
-                    que estamos provocando a la vida marina, impactando negativamente
-                    los ecosistemas y el futuro de nuestro planeta.
-</p>
-<img src="https://source.unsplash.com/random/200x150/?seaturtle,jellyfish" alt="Tortuga y medusa marina" class="section-illustration right-illustration">
-</div>
-<div class="marine-elements">
-<img src="https://source.unsplash.com/random/80x80/?starfish" alt="Estrella de mar" class="marine-icon starfish-icon">
-<img src="https://source.unsplash.com/random/70x70/?seashell" alt="Concha marina" class="marine-icon seashell-icon">
-</div>
-</section>
- 
-        <section class="canva-section">
-<h2>Explora Nuestro Proyecto</h2>
-<p>Descubre en detalle nuestras propuestas y la información clave que queremos compartir:</p>
-<a href="URL_DE_TU_PRESENTACION_CANVA" target="_blank" class="canva-button">
-                Ver Presentación en Canva
-<img src="https://source.unsplash.com/random/30x30/?fish-icon" alt="Icono de pez" class="button-icon">
-</a>
-<div class="marine-elements bottom-elements">
-<img src="https://source.unsplash.com/random/90x90/?octopus" alt="Pulpo" class="marine-icon octopus-icon">
-<img src="https://source.unsplash.com/random/60x60/?seaweed" alt="Algas marinas" class="marine-icon seaweed-icon">
-</div>
-</section>
-</main>
- 
-    <footer>
-<p>&copy; 2025 Chicas UVM Lomas Verdes</p>
-</footer>
- 
-    <script src="somos.js"></script>
+    <div class="container">
+        <h1>Quienes Somos</h1>
+        <p>
+            Somos un grupo de chicas de 4to semestre en UVM Lomas Verdes, con una profunda preocupación por el bienestar de nuestros océanos. Nuestro principal objetivo es concientizar a la sociedad sobre el grave daño que estamos provocando a la vida marina, impactando negativamente los ecosistemas y el futuro de nuestro planeta. Juntas, buscamos inspirar un cambio positivo y fomentar prácticas sostenibles que protejan la biodiversidad marina para las generaciones venideras. Creemos firmemente que cada pequeña acción cuenta para preservar la belleza y vitalidad de nuestros océanos.
+        </p>
+
+        <hr>
+
+        <div class="marine-blue-theme">
+            <h2>Nuestra Misión por la Vida Marina</h2>
+            <p>
+                En línea con nuestra preocupación por los océanos, nuestro diseño incorpora tonalidades azules que evocan la tranquilidad y la inmensidad del mar. Las imágenes seleccionadas reflejan la belleza y fragilidad de la vida marina, esperando inspirar en ti el mismo compromiso que nos impulsa a cuidar este valioso recurso.
+            </p>
+        </div>
+
+        <div class="image-gallery">
+            <img src="https://source.unsplash.com/random/70x70/?seashell%22" alt="Vida Marina 1">
+            <img src="https://source.unsplash.com/random/70x70/?seashell%22" alt="Vida Marina 2">
+        </div>
+
+        <hr>
+
+        <div class="powerpoint-embed">
+            <h2>Nuestra Presentación</h2>
+            <p>Aquí puedes ver nuestra presentación de PowerPoint sobre la concientización marina.</p>
+            <iframe src="URL_DE_INSERCION_DE_ONEDRIVE_DEL_POWERPOINT" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" title="Nombre de tu Presentación"></iframe>
+        </div>
+    </div>
 </body>
 </html>
