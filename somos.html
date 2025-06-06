@@ -3,71 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quienes Somos - UVM Lomas Verdes</title>
+    <title>Quienes Somos - Océanos UVM</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #e0f2f7; /* Azul muy claro para el fondo */
+            padding: 20px;
+            background-color: #e0f2f7; /* Un azul muy claro para el fondo */
             color: #003366; /* Azul oscuro para el texto principal */
+            line-height: 1.6;
         }
         .container {
-            width: 80%;
+            max-width: 900px;
             margin: 20px auto;
-            padding: 20px;
             background-color: #ffffff;
+            padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centrar el contenido del contenedor */
         }
         h1 {
             color: #0056b3; /* Azul medio para el título */
             margin-bottom: 20px;
         }
         p {
-            line-height: 1.6;
-            text-align: justify;
-            margin-bottom: 30px;
-            color: #004080; /* Azul ligeramente más claro para el párrafo */
+            text-align: justify; /* Justificar el texto del párrafo */
+            margin-bottom: 25px;
+            font-size: 1.1em;
         }
         .image-gallery {
             display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-bottom: 30px;
+            justify-content: center; /* Centrar las imágenes */
+            gap: 20px; /* Espacio entre las imágenes */
+            margin-top: 30px;
             flex-wrap: wrap; /* Permite que las imágenes se ajusten en pantallas pequeñas */
         }
         .image-gallery img {
-            max-width: 45%; /* Ajusta el tamaño de las imágenes */
+            max-width: 100%;
             height: auto;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border: 2px solid #4CAF50; /* Borde verde para simular vida marina */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+            width: 350px; /* Tamaño fijo para las imágenes */
+            height: 250px; /* Tamaño fijo para las imágenes */
+            object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
         }
-        .powerpoint-embed {
-            margin-top: 30px;
-            text-align: center;
-        }
-        .powerpoint-embed iframe {
-            width: 100%;
-            height: 600px; /* Altura adecuada para el PowerPoint */
-            border: none;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Estilo para representar la vida marina con colores azules */
-        .marine-blue-theme {
-            background: linear-gradient(to bottom, #87ceeb, #00bfff, #1e90ff); /* Degradado de azules */
-            color: #ffffff; /* Texto blanco para contrastar */
-            padding: 20px;
-            border-radius: 10px;
+        .canva-embed {
             margin-top: 40px;
-            font-size: 1.1em;
-        }
-        .marine-blue-theme p {
-            color: #ffffff;
+            width: 100%;
+            border: none;
+            height: 600px; /* Ajusta la altura según necesites para tu diseño de Canva */
         }
     </style>
 </head>
@@ -75,30 +59,19 @@
     <div class="container">
         <h1>Quienes Somos</h1>
         <p>
-            Somos un grupo de chicas de 4to semestre en UVM Lomas Verdes, con una profunda preocupación por el bienestar de nuestros océanos. Nuestro principal objetivo es concientizar a la sociedad sobre el grave daño que estamos provocando a la vida marina, impactando negativamente los ecosistemas y el futuro de nuestro planeta. Juntas, buscamos inspirar un cambio positivo y fomentar prácticas sostenibles que protejan la biodiversidad marina para las generaciones venideras. Creemos firmemente que cada pequeña acción cuenta para preservar la belleza y vitalidad de nuestros océanos.
+            Somos un grupo de chicas de 4to semestre en UVM Lomas Verdes, con una profunda 
+            preocupación por el bienestar de nuestros océanos. Nuestro principal objetivo es
+            concientizar a la sociedad sobre el grave daño que estamos provocando a la vida marina, 
+            impactando negativamente los ecosistemas y el futuro de nuestro planeta. 
         </p>
 
-        <hr>
-
-        <div class="marine-blue-theme">
-            <h2>Nuestra Misión por la Vida Marina</h2>
-            <p>
-                En línea con nuestra preocupación por los océanos, nuestro diseño incorpora tonalidades azules que evocan la tranquilidad y la inmensidad del mar. Las imágenes seleccionadas reflejan la belleza y fragilidad de la vida marina, esperando inspirar en ti el mismo compromiso que nos impulsa a cuidar este valioso recurso.
-            </p>
-        </div>
-
         <div class="image-gallery">
-            <img src="https://source.unsplash.com/random/70x70/?seashell%22" alt="Vida Marina 1">
-            <img src="https://source.unsplash.com/random/70x70/?seashell%22" alt="Vida Marina 2">
+            <img src="https://via.placeholder.com/350x250/87CEEB/FFFFFF?text=Vida+Marina+1" alt="Peces en el arrecife">
+            <img src="https://via.placeholder.com/350x250/4682B4/FFFFFF?text=Vida+Marina+2" alt="Tortuga marina nadando">
         </div>
 
-        <hr>
-
-        <div class="powerpoint-embed">
-            <h2>Nuestra Presentación</h2>
-            <p>Aquí puedes ver nuestra presentación de PowerPoint sobre la concientización marina.</p>
-            <iframe src="URL_DE_INSERCION_DE_ONEDRIVE_DEL_POWERPOINT" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" title="Nombre de tu Presentación"></iframe>
-        </div>
+        <h2>Nuestro Diseño en Canva</h2>
+        <iframe class="canva-embed" src="https://www.canva.com/design/DAGpfZmUPL0/4GEgaG9aTvB8h0ebvd9viQ/view?embed" allowfullscreen allow="fullscreen"></iframe>
     </div>
 </body>
 </html>
