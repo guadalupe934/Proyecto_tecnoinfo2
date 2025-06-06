@@ -1,5 +1,3 @@
-// somos.js
- 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('El archivo somos.js se ha cargado correctamente y la página está lista.');
  
@@ -13,3 +11,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+tiene menú contextual
