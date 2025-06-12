@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impacto de la Contaminación en la Vida Marina - ¡Actúa Ahora!</title>
+    <link rel="stylesheet" href="contenido.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://via.placeholder.com/32x32/006699/FFFFFF?text=🌊" type="image/x-icon"> </head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <h1>🌊 Impacto de la Contaminación Marina 🐠</h1>
+            <p>Descubre la verdad y únete a la lucha por nuestros océanos.</p>
+        </div>
+    </header>
 
+    <main class="container">
+        <section id="noticias-impactantes" class="section-card">
+            <h2>Noticias que Debes Conocer</h2>
+            <div class="noticias-grid">
+                <article class="noticia-item">
+                    <img src="https://via.placeholder.com/300x200/007bff/FFFFFF?text=Tortuga+Atrapada" alt="Tortuga marina atrapada en plástico">
+                    <h3>Tortugas Marinas: Víctimas del Plástico</h3>
+                    <p>Cada año, miles de tortugas marinas mueren por ingestión de plásticos. ¡Es hora de un cambio!</p>
+                    <button class="btn-ver-mas" data-noticia="tortuga">Ver más</button>
+                </article>
+                <article class="noticia-item">
+                    <img src="https://via.placeholder.com/300x200/28a745/FFFFFF?text=Corales+Blanqueados" alt="Arrecife de coral blanqueado">
+                    <h3>Arrecifes de Coral: Amenazados por el Cambio Climático</h3>
+                    <p>El blanqueamiento de corales es una señal alarmante de la salud de nuestros océanos.</p>
+                    <button class="btn-ver-mas" data-noticia="corales">Ver más</button>
+                </article>
+                <article class="noticia-item">
+                    <img src="https://via.placeholder.com/300x200/ffc107/FFFFFF?text=Microplasticos+Peces" alt="Pez con microplásticos">
+                    <h3>Microplásticos: La Amenaza Invisible en Nuestra Comida</h3>
+                    <p>Partículas diminutas de plástico están invadiendo la cadena alimentaria marina.</p>
+                    <button class="btn-ver-mas" data-noticia="microplasticos">Ver más</button>
+                </article>
+            </div>
+            <div class="modal-noticia" id="modalNoticia">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <h3 id="modalTitulo"></h3>
+                    <p id="modalContenido"></p>
+                    <img id="modalImagen" src="" alt="Imagen de la noticia">
+                    <a id="modalEnlace" href="#" target="_blank" class="btn-modal-enlace">Leer Noticia Completa</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="llamado-accion" class="section-card">
+            <h2>¡Tu Ayuda es Crucial!</h2>
+            <p>La vida marina nos necesita. Cada pequeña acción cuenta para proteger nuestros océanos.</p>
+            <div class="acciones-grid">
+                <div class="accion-item">
+                    <h3>Reduce tu Huella de Plástico</h3>
+                    <p>Usa bolsas reutilizables, botellas de agua recargables y evita productos de un solo uso.</p>
+                    <button class="btn-accion" data-accion="plastico">¿Cómo hacerlo?</button>
+                </div>
+                <div class="accion-item">
+                    <h3>Participa en Limpiezas Costeras</h3>
+                    <p>Únete a eventos de limpieza de playas y costas. ¡Tu esfuerzo hace la diferencia!</p>
+                    <button class="btn-accion" data-accion="limpieza">Encuentra una</button>
+                </div>
+                <div class="accion-item">
+                    <h3>Concientiza a Otros</h3>
+                    <p>Comparte información y educa a tus amigos y familiares sobre la importancia de la conservación marina.</p>
+                    <button class="btn-accion" data-accion="conciencia">¡Corre la Voz!</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria-vida-marina" class="section-card">
+            <h2>La Belleza que Debemos Proteger</h2>
+            <div class="galeria-imagenes">
+                <img src="https://via.placeholder.com/200x150/0099CC/FFFFFF?text=Pez+Tropical" alt="Pez tropical vibrante">
+                <img src="https://via.placeholder.com/200x150/0077B3/FFFFFF?text=Delfines" alt="Grupo de delfines saltando">
+                <img src="https://via.placeholder.com/200x150/33CCCC/FFFFFF?text=Coral+Sano" alt="Arrecife de coral saludable">
+                <img src="https://via.placeholder.com/200x150/66CCFF/FFFFFF?text=Ballena" alt="Majestuosa ballena jorobada">
+                <img src="https://via.placeholder.com/200x150/99CCFF/FFFFFF?text=Caballito+Mar" alt="Delicado caballito de mar">
+                <img src="https://via.placeholder.com/200x150/005580/FFFFFF?text=Anémona" alt="Pez payaso en anémona">
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Protección Marina. Todos los derechos reservados.</p>
+        <p>¡Concientiza, actúa, protege!</p>
+    </footer>
+
+    <script src="contenido.js"></script>
+</body>
+</html>
